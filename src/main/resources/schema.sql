@@ -50,7 +50,7 @@ CREATE TABLE public.commission
 (
   id                     SERIAL PRIMARY KEY NOT NULL,
   seller_id              INT                NOT NULL,
-  "amount of commission" DOUBLE PRECISION   NOT NULL,
+  amount_of_commission DOUBLE PRECISION   NOT NULL,
   date                   TIMESTAMP          NOT NULL
 );
 CREATE UNIQUE INDEX commission_id_uindex
