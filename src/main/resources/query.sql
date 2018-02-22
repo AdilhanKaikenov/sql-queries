@@ -200,9 +200,6 @@ ORDER BY dd.year_month_date;
 
 -- - select order with max amount per month, salesman who sold it and customer who ordered it
 -- (if there are 2 identical order, select first by date)
-
--- - select order with max amount per month, salesman who sold it and customer who ordered it
--- (if there are 2 identical order, select first by date)
 SELECT
   TO_CHAR(dd, 'dd.MM.yyyy')      AS date,
   COALESCE(s.seller_name, '-')   AS seller_name,
