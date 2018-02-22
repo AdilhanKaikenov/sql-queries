@@ -1,24 +1,24 @@
 --  commission
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (501, 101, 200, '2010-03-10');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (502, 102, 300, '2010-02-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (503, 103, 400, '2010-04-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (504, 104, 500, '2010-05-10');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (505, 105, 250, '2010-06-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (506, 101, 350, '2010-07-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (507, 102, 500, '2010-08-10');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (508, 103, 100, '2010-09-05');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (509, 104, 200, '2010-10-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (510, 105, 300, '2010-03-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (511, 101, 400, '2010-04-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (512, 102, 300, '2010-02-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (513, 103, 150, '2010-01-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (514, 104, 200, '2010-04-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (515, 105, 300, '2010-06-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (516, 101, 250, '2010-08-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (517, 102, 300, '2010-09-25');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (518, 103, 400, '2010-11-20');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (519, 104, 200, '2010-12-15');
-INSERT INTO commission (id, seller_id, "amount of commission", date) VALUES (520, 105, 100, '2010-03-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (501, 101, 200, '2010-03-10');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (502, 102, 300, '2010-02-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (503, 103, 400, '2010-04-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (504, 104, 500, '2010-05-10');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (505, 105, 250, '2010-06-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (506, 101, 350, '2010-07-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (507, 102, 500, '2010-08-10');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (508, 103, 100, '2010-09-05');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (509, 104, 200, '2010-10-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (510, 105, 300, '2010-03-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (511, 101, 400, '2010-04-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (512, 102, 300, '2010-02-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (513, 103, 150, '2010-01-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (514, 104, 200, '2010-04-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (515, 105, 300, '2010-06-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (516, 101, 250, '2010-08-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (517, 102, 300, '2010-09-25');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (518, 103, 400, '2010-11-20');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (519, 104, 200, '2010-12-15');
+INSERT INTO commission (id, seller_id, amount_of_commission, date) VALUES (520, 105, 100, '2010-03-15');
 
 --  cities
 INSERT INTO city (id, city_name) VALUES (401, 'London');
