@@ -45,14 +45,25 @@ INSERT INTO customer (id, customer_name, city, rating) VALUES (206, 'Cisneros', 
 INSERT INTO customer (id, customer_name, city, rating) VALUES (207, 'Periera', 406, 1);
 
 --  orders
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (301, 18.68, '2010-03-10', 208, 107);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (302, 767.19, '2010-03-10', 201, 101);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (303, 1900.10, '2010-03-10', 207, 104);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (304, 5160.45, '2010-03-10', 203, 102);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (305, 1068.16, '2010-03-10', 208, 107);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (306, 1713.23, '2010-04-10', 202, 103);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (307, 75.75, '2010-04-10', 204, 102);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (308, 4723.00, '2010-05-10', 206, 101);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (309, 1309.95, '2010-06-10', 204, 102);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (310, 9891.88, '2010-06-10', 206, 101);
-INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (311, 9891.88, '2010-06-11', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (301, 18.68, '2010-03-04', 208, 107);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (302, 767.19, '2010-03-05', 201, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (303, 1900.10, '2010-03-06', 207, 104);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (304, 5160.45, '2010-03-07', 203, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (305, 1068.16, '2010-03-04', 208, 107);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (306, 1713.23, '2010-04-05', 202, 103);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (307, 75.75, '2010-04-06', 204, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (308, 4723.00, '2010-05-07', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (309, 1309.95, '2010-06-04', 204, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (310, 9891.88, '2010-06-05', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (311, 9891.88, '2010-06-06', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (312, 18.68, '2010-01-07', 208, 107);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (313, 767.19, '2010-01-15', 201, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (314, 1900.10, '2010-01-14', 207, 104);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (315, 5160.45, '2010-01-13', 203, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (316, 1068.16, '2010-01-03', 208, 107);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (317, 1713.23, '2010-01-04', 202, 103);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (318, 75.75, '2010-01-05', 204, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (319, 4723.00, '2010-01-02', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (320, 1309.95, '2010-01-05', 204, 102);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (321, 9891.88, '2010-01-05', 206, 101);
+INSERT INTO "order" (id, amount, order_date, customer_id, seller_id) VALUES (322, 9891.88, '2010-01-06', 206, 101);
